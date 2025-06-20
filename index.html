@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ogg font hosting</title>
+  <style>
+    @font-face {
+      font-family: 'OggBold';
+      src: url('./Ogg-Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'OggItalic';
+      src: url('./Ogg-BoldItalic.woff2') format('woff2');
+      font-weight: 400;
+      font-style: italic;
+    }
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+    }
+    h1, h3 {
+      font-family: 'OggBold', serif;
+    }
+    h2 {
+      font-family: 'OggItalic', serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Toto je H1 – Ogg Bold</h1>
+  <h2>Toto je H2 – Ogg Italic</h2>
+  <h3>Toto je H3 – Ogg Bold</h3>
+  <p>Pokud to vidíš správně, fonty jsou funkční 🎉</p>
+</body>
+</html>
